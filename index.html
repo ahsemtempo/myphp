@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Voluntário</title>
+</head>
+<body>
+    <h2>Registro de Voluntário</h2>
+    <form action="registro_voluntario.php" method="post">
+        Nome: <input type="text" name="nome" required><br>
+        Email: <input type="email" name="email" required><br>
+        Habilidades: <textarea name="habilidades"></textarea><br>
+        <input type="submit" value="Registrar">
+    </form>
+
+    <h2>Registro de Organização</h2>
+    <form action="registro_organizacao.php" method="post">
+        Nome: <input type="text" name="nome" required><br>
+        Descrição: <textarea name="descricao"></textarea><br>
+        Contato: <input type="text" name="contato" required><br>
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>
